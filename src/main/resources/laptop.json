@@ -1,0 +1,106 @@
+{
+    "pageTitle": "Laptops",
+    "dbTable" : "laptop",
+    "groups": [{
+         
+        "groupName": "Laptop Details",
+        "fields" : [
+          {
+            "dbName": "name",
+            "dbConstraint": "UNIQUE NOT NULL",
+            "dbtype": "TEXT",
+            "label": "Name",
+            "type": "TEXT",
+            "maxlength": "",
+            "minlength": "",
+            "tooltip": "",
+            "placeholder": "",
+            "validationErrorMessage": "",
+            "pattern": "",
+            "mandatory": "",
+            "dropdown": [],
+            "readOnlyInUpdate": "false",
+            "visibleInUpdate": "true",
+            "isPrimaryKey": "true"
+          },
+          {
+            "dbName" : "model",
+            "dbConstraint": "",
+            "dbtype": "TEXT",
+            "label": "Model",
+            "type": "TEXT",
+            "maxlength": "",
+            "minlength": "",
+            "tooltip": "",
+            "placeholder": "",
+            "validationErrorMessage": "",
+            "pattern": "",
+            "mandatory": "",
+            "dropdown": [],
+            "readOnlyInUpdate": "false",
+            "visibleInUpdate": "true",
+            "isPrimaryKey": "false"
+          }
+        ]}, {
+      
+        "groupName": "Laptop Configuration",
+        "fields": [
+          {
+            "dbName" : "cpu",
+            "dbConstraint": "",
+            "dbtype": "TEXT",
+            "label": "CPU",
+            "type": "TEXT",
+            "maxlength": "",
+            "minlength": "",
+            "tooltip": "",
+            "placeholder": "",
+            "validationErrorMessage": "",
+            "pattern": "",
+            "mandatory": "",
+            "dropdown": [],
+            "readOnlyInUpdate": "false",
+            "visibleInUpdate": "true",
+            "isPrimaryKey": "false"
+          },
+          {
+            "dbName" : "memory",
+            "dbConstraint": "",
+            "dbtype": "TEXT",
+            "label": "Memory",
+            "type": "TEXT",
+            "maxlength": "",
+            "minlength": "",
+            "tooltip": "",
+            "placeholder": "",
+            "validationErrorMessage": "",
+            "pattern": "",
+            "mandatory": "",
+            "dropdown": [],
+            "readOnlyInUpdate": "false",
+            "visibleInUpdate": "true",
+            "isPrimaryKey": "false"
+          },
+          {
+            "dbName" : "harddisk",
+            "dbtype": "TEXT",
+            "dbConstraint": "",
+            "label": "Hard Disk",
+            "type": "TEXT",
+            "maxlength": "",
+            "minlength": "",
+            "tooltip": "",
+            "placeholder": "",
+            "validationErrorMessage": "",
+            "pattern": "",
+            "mandatory": "",
+            "dropdown": [],
+            "readOnlyInUpdate": "false",
+            "visibleInUpdate": "true",
+            "isPrimaryKey": "false"
+          }
+        ]
+      }
+      ]
+    
+  }
